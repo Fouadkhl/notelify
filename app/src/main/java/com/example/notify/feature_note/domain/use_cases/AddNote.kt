@@ -5,7 +5,7 @@ import com.example.notify.feature_note.domain.model.Note
 import com.example.notify.feature_note.domain.repository.NoteRepository
 import javax.inject.Inject
 
-class AddNote @Inject constructor(val noteRepository: NoteRepository) {
+    class AddNote @Inject constructor(val noteRepository: NoteRepository) {
 
 
     @Throws(InvalidNoteException::class)
